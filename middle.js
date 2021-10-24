@@ -20,5 +20,9 @@ const assertArraysEqual = function(actual, expected) {
 };
 
 const middle = function(array) {
-  
+  let arrayMid = [];
+  if (array.length <= 2)
+  return [];
 }
+
+console.log(middle([1,2]));
