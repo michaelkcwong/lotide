@@ -18,3 +18,9 @@ const assertArraysEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
+
+const letterPositions = function(sentence) {
+  const results = {};
+
+  return results;
+};
