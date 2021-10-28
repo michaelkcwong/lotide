@@ -16,5 +16,12 @@ const eqObjects = function(object1, object2) {
 };
 
 const assertObjectsEqual = function(actual, expected) {
-  // Implement me!
-};
+    if (eqObjects(actual, expected)) {
+      console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
+    } else {
+      console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
+    }
+  };
+
+
+  assertObjectsEqual({a: '1', b: '2'}, {b: '2', a: '1'});
