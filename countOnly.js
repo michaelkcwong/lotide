@@ -48,6 +48,6 @@ assertEqual(result1["Fang"], 2);
 assertEqual(result1["Agouhanna"], undefined);
 //Confirm that all our tests are passing
 
-
+module.exports = countOnly;
 
 

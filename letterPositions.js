@@ -47,3 +47,5 @@ console.log(letterPositions("hello").l);
 console.log(letterPositions("hello").l);
 console.log(letterPositions("hello").o);
 console.log(letterPositions("hello"));
+
+module.exports = letterPositions;
