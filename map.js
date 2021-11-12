@@ -1,3 +1,5 @@
+//A function that takes in an array and a callback and returns a new array based on the results of the callback on each item in the array.
+
 const eqArrays = require('./eqArrays');
 
 const assertArraysEqual = require('./assertArraysEqual')

@@ -1,3 +1,5 @@
+//A function that takes in a source array and an itemsToRemove arrays and returns only the items from the source array that are not in the itemsToRemove array.
+
 const eqArrays = require('./eqArrays');
 
 const assertArraysEqual = require('./assertArraysEqual')

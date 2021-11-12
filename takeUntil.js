@@ -5,6 +5,8 @@
 //To keep things simple, the callback should only be provided one value: The item in the array.
 //Since takeUntil returns arrays, the best assertion function to use would be assertArraysEqual to compare its return value against an expected array.
 
+//A function that takes in an array and callback and returns a slice of the array based on the criteria specified in the callback.
+
 const eqArrays = require('./eqArrays');
 
 const assertArraysEqual = require('./assertArraysEqual');

@@ -1,10 +1,5 @@
-// const assertEqual = function(actual, expected) {
-//   if (actual === expected) {
-//     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-//   } else if (actual !== expected) {
-//     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-//   }
-// };
+//A function that takes in an array and returns the first element in the array.
+
 const assertEqual = require('./assertEqual')
 
 const head = function(list) {

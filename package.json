@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@wong_michael/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "The Lotide project is a modular collection of functions that operate on data, namely Arrays and Objects",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/michaelkcwong/lotide.git"
   },
-  "author": "",
+  "author": "Michael Wong",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/michaelkcwong/lotide/issues"
