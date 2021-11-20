@@ -7,7 +7,7 @@ const assertEqual = require('./assertEqual')
 const findKeyByValue = function(obj, value) { //function which takes in an object and a value
   const keys = Object.keys(obj); //Using Object.keys to search through object keys
   for (let key of keys) { //for of loop to scan the object
-    if (obj.key === value) { //return the first key which contains the given value
+    if (obj[key] === value) { //return the first key which contains the given value
       return key;
     }
   }
@@ -15,3 +15,10 @@ const findKeyByValue = function(obj, value) { //function which takes in an objec
 };
 
 module.exports = findKeyByValue;
+
+const bestTVShowsByGenre = {
+  sci_fi: "The Expanse",
+  comedy: "Brooklyn Nine-Nine",
+  drama:  "The Wire"
+};
+

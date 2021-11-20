@@ -3,9 +3,14 @@
 const assertEqual = require('./assertEqual');
 
 const eqArrays = function(array1, array2) {
+
+  array1 = array1.flat();
+  array2 = array2.flat();
+
   if (array1.length !== array2.length) {
     return false;
   }
+
   for (let i = 0; i < array1.length; i++) {
     if (array1[i] !== array2[i]) {
       return false;
@@ -15,4 +20,12 @@ const eqArrays = function(array1, array2) {
 };
 
 module.exports = eqArrays;
+
+assertEqual(eqArrays([[2, 3], [4]], [[2, 3], [4]]), true);
+assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
+assertEqual(eqArrays([2, 1, 3], [1, 2, 3]), true);
+assertEqual(eqArrays([2, 1, 3], [1, 2, 3]), false);
+assertEqual(eqArrays(["1", "2", 3], [1, 2, 3]), false);
+assertEqual(eqArrays([1, 0, 2], [5, 3, 1]), true);
+
 
