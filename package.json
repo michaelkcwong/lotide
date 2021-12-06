@@ -1,6 +1,6 @@
 {
   "name": "@wong_michael/lotide",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The Lotide project is a modular collection of functions that operate on data, namely Arrays and Objects",
   "main": "assertArraysEqual.js",
   "directories": {
